@@ -1,4 +1,4 @@
-# WordPress Bedrock App Base Image
+# WordPress Base Docker Image
 
 ## Current variants
 

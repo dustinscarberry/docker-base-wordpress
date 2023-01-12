@@ -2,26 +2,26 @@
 
 ## Current variants
 
-### 8.1
+### 8.x
 
 Vanilla WordPress
 
-### 8.1-cached
+### 8.x-cached
 
 Vanilla WordPress with a fastcgi caching configuration
 
-### 8.1-bedrock
+### 8.x-bedrock
 
 Bedrock WordPress
 
-### 8.1-bedrock-cached
+### 8.x-bedrock-cached
 
 Bedrock WordPress with a fastcgi caching configuration
 
 ## Usage
 
 ```docker
-FROM dustinscarberry/wordpress-base:8.1
+FROM dustinscarberry/wordpress-base:8.2
 
 # set workdir
 WORKDIR /var/www/html

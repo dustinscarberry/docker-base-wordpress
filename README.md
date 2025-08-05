@@ -1,4 +1,6 @@
-# WordPress Base Docker Image
+<img src="https://github.com/dustinscarberry/repo-ux/raw/master/banner/wordpress-docker-base-image.png" alt="Project banner image">
+
+A base image for WordPress apps with variations for vanilla and bedrock.
 
 ## Current variants
 

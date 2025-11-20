@@ -12,14 +12,6 @@ Vanilla WordPress
 
 Vanilla WordPress with a fastcgi caching configuration
 
-### 8.x-bedrock
-
-Bedrock WordPress
-
-### 8.x-bedrock-cached
-
-Bedrock WordPress with a fastcgi caching configuration
-
 ## Usage
 
 ```docker

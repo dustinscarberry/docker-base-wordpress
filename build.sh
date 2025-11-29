@@ -1,8 +1,9 @@
 #!/bin/sh
 
 php82Version=php:8.2.29-fpm-alpine
-php83Version=php:8.3.27-fpm-alpine
-php84Version=php:8.4.14-fpm-alpine
+php83Version=php:8.3.28-fpm-alpine
+php84Version=php:8.4.15-fpm-alpine
+php85Version=php:8.5.0-fpm-alpine
 
 docker login
 
@@ -26,3 +27,9 @@ docker push dustinscarberry/wordpress:php8.4
 
 docker buildx build --platform linux/amd64 -t dustinscarberry/wordpress:php8.4-cached --build-arg PHP_VERSION=$php84Version -f images/vanilla-cached/Dockerfile .
 docker push dustinscarberry/wordpress:php8.4-cached
+
+docker buildx build --platform linux/amd64 -t dustinscarberry/wordpress:php8.5 --build-arg PHP_VERSION=$php85Version -f images/vanilla/Dockerfile .
+docker push dustinscarberry/wordpress:php8.5
+
+docker buildx build --platform linux/amd64 -t dustinscarberry/wordpress:php8.5-cached --build-arg PHP_VERSION=$php85Version -f images/vanilla-cached/Dockerfile .
+docker push dustinscarberry/wordpress:php8.5-cached

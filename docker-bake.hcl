@@ -1,17 +1,17 @@
 variable "PHP82_VERSION" {
-  default = "php:8.2.35-fpm-alpine"
+  default = "php:8.2.36-fpm-alpine"
 }
 
 variable "PHP83_VERSION" {
-  default = "php:8.3.36-fpm-alpine"
+  default = "php:8.3.37-fpm-alpine"
 }
 
 variable "PHP84_VERSION" {
-  default = "php:8.4.27-fpm-alpine"
+  default = "php:8.4.28-fpm-alpine"
 }
 
 variable "PHP85_VERSION" {
-  default = "php:8.5.12-fpm-alpine"
+  default = "php:8.5.13-fpm-alpine"
 }
 
 target "vanilla_base" {
